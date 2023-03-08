@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/simulate/iter/cosine-wave"
-click B href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/main"
-click C href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/production"
-click D href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/esm"
-click E href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/deno"
-click F href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/simulate/iter/cosine-wave"
+%% click B href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/main"
+%% click C href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/production"
+%% click D href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/esm"
+%% click E href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/deno"
+%% click F href "https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/simulate/iter/cosine-wave
