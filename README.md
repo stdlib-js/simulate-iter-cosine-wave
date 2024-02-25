@@ -71,7 +71,7 @@ where `τ` is the period, `a` is the peak amplitude, and `φ` is the phase offse
 ## Usage
 
 ```javascript
-import iterCosineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-cosine-wave@deno/mod.js';
+import iterCosineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-cosine-wave@v0.2.1-deno/mod.js';
 ```
 
 #### iterCosineWave( \[options] )
@@ -236,7 +236,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterCosineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-cosine-wave@deno/mod.js';
+import iterCosineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-cosine-wave@v0.2.1-deno/mod.js';
 
 // Create an iterator:
 var opts = {
