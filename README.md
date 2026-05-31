@@ -41,13 +41,13 @@ limitations under the License.
 
 A cosine waveform is represented by the following equation
 
-<!-- <equation class="equation" label="eq:cosine_waveform" align="center" raw="f(t; \tau, a, \varphi) = a \cos \frac{2\pi(t-\varphi)}{\tau}" alt="Equation for a cosine waveform."> -->
+<!-- <equation class="equation" label="eq:cosine_waveform" align="center" raw="f(t; \tau, a, \varphi) = a \cdot \cos \frac{2\pi(t-\varphi)}{\tau}" alt="Equation for a cosine waveform."> -->
 
 ```math
-f(t; \tau, a, \varphi) = a \cos \frac{2\pi(t-\varphi)}{\tau}
+f(t; \tau, a, \varphi) = a \cdot \cos \frac{2\pi(t-\varphi)}{\tau}
 ```
 
-<!-- <div class="equation" align="center" data-raw-text="f(t; \tau, a, \varphi) = a \cos \frac{2\pi(t-\varphi)}{\tau}" data-equation="eq:cosine_waveform">
+<!-- <div class="equation" align="center" data-raw-text="f(t; \tau, a, \varphi) = a \cdot \cos \frac{2\pi(t-\varphi)}{\tau}" data-equation="eq:cosine_waveform">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@5827c258000edcb03496265cdfd372d686b4c656/lib/node_modules/@stdlib/simulate/iter/cosine-wave/docs/img/equation_cosine_waveform.svg" alt="Equation for a cosine waveform.">
     <br>
 </div> -->
@@ -64,14 +64,32 @@ where `τ` is the period, `a` is the peak amplitude, and `φ` is the phase offse
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/simulate-iter-cosine-wave
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterCosineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-cosine-wave@deno/mod.js';
+var iterCosineWave = require( '@stdlib/simulate-iter-cosine-wave' );
 ```
 
 #### iterCosineWave( \[options] )
@@ -236,7 +254,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterCosineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-cosine-wave@deno/mod.js';
+var iterCosineWave = require( '@stdlib/simulate-iter-cosine-wave' );
 
 // Create an iterator:
 var opts = {
@@ -297,7 +315,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -362,15 +380,15 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse/tree/deno
+[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse
 
-[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave/tree/deno
+[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave
 
-[@stdlib/simulate/iter/sine-wave]: https://github.com/stdlib-js/simulate-iter-sine-wave/tree/deno
+[@stdlib/simulate/iter/sine-wave]: https://github.com/stdlib-js/simulate-iter-sine-wave
 
-[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave/tree/deno
+[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave
 
-[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave/tree/deno
+[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave
 
 <!-- </related-links> -->
 
